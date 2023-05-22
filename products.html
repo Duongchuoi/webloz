@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Products</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
+    <link rel="stylesheet" href="css/style_index.css">
+    <link rel="stylesheet" href="css/categories.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <head>
+  <body>
+    <!-- navbar -->
+      <nav> 
+        <div class="logo">
+          <h3><a href="merlin.html" class="logo-name">PhongLee Fashion</a></h3>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li><a href="contact.html">ContactUs</a></li>
+          <li><a href="login.html" id="login">Login</a></li>
+        </ul>
+        <!-- The Modal -->
+            
+        <button id="cart">
+          <img src="images/icons/cart.png" width="50px">
+        </button>
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title">Cart</h5>
+                  <span class="close">&times;</span>
+              </div>
+              <div class="modal-body">
+                  <div class="cart-row">
+                      <span class="cart-item cart-header cart-column">Product</span>
+                      <span class="cart-price cart-header cart-column">Price</span>
+                      <span class="cart-quantity cart-header cart-column">Quantity</span>
+                  </div>
+                  <div class="cart-items"> </div>
+                  <div class="cart-total">
+                      <strong class="cart-total-title">Total:</strong>
+                      RS.<span class="cart-total-price">0</span>
+                  </div>
+              </div>
+
+
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary close-footer">Close</button>
+                  <button type="button" class="btn btn-primary order">Pay</button>
+              </div>
+          </div>
+      </div>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    <!-- navbar -->
+      <h2 class="main-head-of-products">Everyone Has A Style Statment<br>
+        <span class="colored-word-bigger-size">FIND YOURS HERE!</span>
+      </h2>
+
+      <br>
+      <div class="bg-images">
+        <a href="products.html"><img src="images/products-img/marcus-loke-xXJ6utyoSw0-unsplash (1).jpg" alt=""></a>
+      </div>
+
+      <center><p class="msg-ps">
+        <span class="colored-word">Click</span> on the product to add in your shopping list.
+        <br>Go below and check <span class="colored-word">YOUR CART</span> for details.
+      </p></center>
+
+      <div>
+        <h1>For <span class="colored-word">Her</span></h1>
+        <center><hr class="products-hr"></center>
+        <br><br>
+
+        <div class="kurti">
+          <section class="wrapper">
+            <div class="products">
+                <ul>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/women/kurti1.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Kurta with Palazzos & Dupatta</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">1799</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/women/kurti2.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Women Solid kurta with Trouser</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">1649</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/women/kurti3.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Printed Straight Kurta</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">659</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-product no-margin">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/women/kurti4.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Slim Fit Straight Kurta</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">1990</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
+           
+        <div class="western">
+          <section class="wrapper">
+            <div class="products">
+                <ul>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/women/western1.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Solid Shirt Style Top</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">549</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/women/western2.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Style Quotient</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">554</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/women/western3.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Printed A-Line Top</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">549</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-product no-margin">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/women/western4.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Ruffled Shirt Style Top</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">549</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+          </section>
+        </div>   
+        <div class="g-shoes">
+          <section class="wrapper">
+            <div class="products">
+                <ul>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/women/g-shoe1.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Women LQDCell Shatter Shift Sneaker</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">6999</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/women/g-shoe2.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Women Ultraboost 19 Running</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">11899</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/women/g-shoe3.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Women Absoluted Run</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">1549</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-product no-margin">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/women/g-shoe4.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Women Go Run 600 Running Sneaker</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">3249</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+          </section>
+        </div>   
+        <div class="heels">
+          <section class="wrapper">
+            <div class="products">
+                <ul>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/women/heels1.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Women Heels</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">499</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/women/heels2.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Women Heeled Boots</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">527</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/women/heels3.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Women Solid Wedges</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">2499</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-product no-margin">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/women/heels4.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Women Heels</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">499</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+          </section>
+        </div>   
+
+        <h1>For <span class="colored-word">Him</span></h1>
+        <center><hr class="products-hr"></center>
+        <br><br>
+
+        <div class="shirt">
+          <section class="wrapper">
+            <div class="products">
+                <ul>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/men/shirt1.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Difference of Opinion</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">499</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/men/shirt2.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Printed Round Neck T-shirt</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">486</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/men/shirt3.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Colourblocked Round Neck Native</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">404</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-product no-margin">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/men/shirt4.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">T-shirt with Shoulder Patch</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">519</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
+           
+        <div class="jeans">
+          <section class="wrapper">
+            <div class="products">
+                <ul>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/men/jeans1.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Men Slim Fit Jeans</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">874</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/men/jeans2.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Men Super Skinny Fit Jeans</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">1199</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/men/jeans3.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Men Slim Straight Fit Jeans</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">9599</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-product no-margin">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/men/jeans4.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Men Slim Fit Jean</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">999</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+          </section>
+        </div>   
+        <div class="joggers">
+          <section class="wrapper">
+            <div class="products">
+                <ul>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/men/joggers1.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Men Solid Joggers</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">934</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/men/joggers2.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Men Zippered Jersey Pants</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">854</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/men/joggers3.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Men Rapid-Dry Training Tights</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">949</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-product no-margin">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/men/joggers4.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Men Solid Joggers</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">465</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+          </section>
+        </div>   
+        <div class="shoe1">
+          <section class="wrapper">
+            <div class="products">
+                <ul>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/men/shoe1.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Men Clasp IDP Sneakers</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">1304</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/men/shoe2.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Men Sneakers</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">1169</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/men/shoe3.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Men Sneakers</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">679</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-product no-margin">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="images/products-img/men/shoe4.png"
+                                alt="">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Men Pro Sneakers</h3>
+                            <div class="content-product-deltals">Rs.
+                                <div class="price">
+                                    <span class="money">1699</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+          </section>
+        </div> 
+        
+        <center><hr class="last-hr-of-product"></center>
+       
+      
+    <script src="js/nav.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+  </body>
+</html>
